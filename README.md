@@ -106,8 +106,7 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
     </body>
     </html>
 
-"""
-
+    """
     class myhandler(BaseHTTPRequestHandler):
         def do_GET(self):
             print("request received")
